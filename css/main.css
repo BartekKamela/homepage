@@ -1,0 +1,57 @@
+
+main {
+    margin: 30px;
+}
+
+.section--dark {
+    color: white;
+}
+
+.section__photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.section__content {
+    box-shadow: 0px 0px 9px 1px #BCBCBC;
+    border-radius: 5px;
+    line-height: 1.7;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.section__interestingItem {
+    color: #8383e1;
+}
+
+.section__interestingItem--dark {
+    color: #9acad1;
+}
+
+.section--courses {
+    padding-top: 35px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.linkUP {
+    color:rgb(145, 145, 145);
+    display: block;
+    text-align: right;
+    font-size:x-small;
+    text-decoration: none;
+}
+
+.linkUP--dark {
+    color:#b1b1b1;
+}
+
+.section--freeTime {
+    margin-top: 50px;
+}
+
+.section__freeTimeParagraph {
+    line-height: 1.7;
+    padding: 10px;
+}

@@ -1,0 +1,62 @@
+
+.header {
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 1px #8f8f8f;
+}
+
+.header--dark {
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 1px #ffffff;
+}
+
+.header__you {
+    color: blue;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.header__code {
+    color: #f5f51b;
+    font-weight: 900;
+    font-style: bold;
+    text-shadow: 2px 1px #000000;
+}
+
+.header__myName {
+    text-align: center;
+    color: #bb4c4c;
+    margin-left: 20px;
+}
+
+.header__buttons {
+    text-align: right;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.header__button {
+    font-size: smaller;
+    border: none;
+    border-radius: 5px;     
+}
+
+.header__button:hover {
+    border: none;
+    border-radius: 5px;
+    background-color: #dfd5d5;
+}
+
+.header__themeButton {
+    font-size: smaller;
+    width: 80px;
+    border: none;
+    border-radius: 5px;    
+}
+
+.header__themeButton:hover {
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dfd5d5;
+}

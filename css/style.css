@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: 5px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.body--dark {
+    background-color: black;
+}

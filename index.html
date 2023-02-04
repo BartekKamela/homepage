@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body" id="start">
+    <header class="header js-header">
+        <p class="header__buttons">
+            <button class="header__button js-headerButton">Usuń nagłówek</button>
+            <button class="header__themeButton js-themeButton"><span class="header__themeName js-themeName">Ciemne</span> tło</button>
+        </p>
+        <h1 class="header__myName js-myName">Bartłomiej Kamela - kursant w <span class="header__you">you</span><span
+                class="header__code">Code</span></h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#o-mnie" class="navigation__link">O mnie</a></li>
+                <li><a href="#kursy" class="navigation__link">Kursy</a></li>
+                <li><a href="#wolny-czas" class="navigation__link">Wolny czas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section js-section" id="o-mnie">
+            <img  class="section__photo" src="/images/photo_small.jpg" alt="Zdjęcie Bartka">
+            <h2>O mnie</h2>
+            <div class="section__content">
+                <p>Mam na imię <strong>Bartek</strong> i mam 41 lat, urodziłem się i mieszkam w Lublinie.<br>
+                    Z wykształcenia jestem <b>inżynierem informatykiem</b> o specjalizacji <em>sieci komputerowe i
+                        systemy
+                        rozproszone</em>.
+                    <span class="section__interestingItem js-interestingItem">Zawodowo zajmuję się sieciami</span> <i>WAN, LAN, WLAN, PON
+                        oraz
+                        systemami
+                        virtualizacji. Serwery, routery, przełączniki, OLTy, światłowody oraz radiolinie</i> nie są mi
+                    obce.
+                </p>
+                <p>Aktualnie chłonę wiedzę na kursie Front-End developera 👍</p>
+            </div>
+        </section>
+        <a href="#start" class="linkUP js-linkAbout">Do góry</a>
+        <section class="section section--courses" id="kursy">
+            <table class="table js-table">
+                <caption class="table__caption">
+                    <h3>Kursy / szkolenia</h3>
+                </caption>
+                <tr class="table__header js-tableHeader">
+                    <th>Rok</th>
+                    <th class="table__cell table__cell--center">Organizacja</th>
+                    <th>Opis</th>
+                </tr>
+                <tr class="table__row js-tableRow2012-1">
+                    <th rowspan="5" class="table__cell table__cell--header js-tableCell2012">2012</th>
+                    <td rowspan="5" class="table__cell table__cell--center">Microsoft</td>
+                    <td class="table__cell">MS 10135 Configuring, Managing and Troubleshooting Microsoft Exchange Server
+                        2010</td>
+                </tr>
+                <tr class="table__row js-tableRow2012-2">
+                    <td class="table__cell">MS 6419 Configuring, Managing and Maintaining Windows Server 2008-based
+                        Servers</td>
+                </tr>
+                <tr class="table__row js-tableRow2012-3">
+                    <td class="table__cell">MS 50331 Windows 7, Enterprise Desktop Support Technician</td>
+                </tr>
+                <tr class="table__row js-tableRow2012-4">
+                    <td class="table__cell">MS 6232 Implementing a Microsoft SQL Server 2008 R2 Database</td>
+                </tr>
+                <tr class="table__row js-tableRow2012-5">
+                    <td class="table__cell">MS 6425 Configuring and Troubleshooting Windows Server 2008 Active Directory
+                        Domain Services</td>
+                </tr>
+                <tr class="table__row js-tableRow2013">
+                    <th scope="row" class="table__cell table__cell--header js-tableCell2013">2013</th>
+                    <td class="table__cell">INTERLAB</td>
+                    <td class="table__cell">Z zakresu podstaw techniki światłowodowej obejmujący
+                        montaż i pomiary linii optotelekomunikacyjnych, w tym praktyczną obsługę
+                        instrumentów oraz interpretację wyników pomiarów transmisyjnych (Tier 1) i
+                        reflektometrycznych (Tier 2)</td>
+                </tr>
+                <tr class="table__row js-tableRow2014">
+                    <th scope="row" class="table__cell table__cell--header js-tableCell2014">2014</th>
+                    <td class="table__cell table__cell--center">VCC</td>
+                    <td class="table__cell">Projektant sieci światłowodowych</td>
+                </tr>
+                <tr class="table__row js-tableRow2023">
+                    <th scope="row" class="table__cell--header js-tableCell2023">2023</th>
+                    <td class="table__cell table__cell--center">youCode.pl</td>
+                    <td class="table__cell">Front-End Developer - JavaScript React (w trakcie)</td>
+                </tr>
+            </table>
+        </section>
+        <a href="#start" class="linkUP js-linkCourses">Do góry</a>
+        <section class="section section--freeTime js-freeTime" id="wolny-czas">
+            <h3>W wolnych chwilach</h3>
+            <div class="section__content">
+                <p class="section__freeTimeParagraph">
+                    Lubię podróżować, jeździć motocyklem, pływać skuterem wodnym, chodzić po górach, pływać łajbą po
+                    mazurach, a
+                    zimą jeździć na desce.
+                </p>
+            </div>
+        </section>
+        <a href="#start" class="linkUP js-linkFreeTime">Do góry</a>
+    </main>
+    <footer class="footer">
+        Copyright © Bartłomiej Kamela
+    </footer>
+</body>
+
+</html>
