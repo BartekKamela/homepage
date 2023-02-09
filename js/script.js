@@ -26,6 +26,7 @@ let table__row2013 = document.querySelector(".js-tableRow2013");
 let table__row2014 = document.querySelector(".js-tableRow2014");
 let table__row2023 = document.querySelector(".js-tableRow2023");
 let sectionFreeTime = document.querySelector(".js-freeTime");
+let sectionFreeTimeParagraph = document.querySelector(".js-sectionFreeTimeParagraph");
 
 header__button.addEventListener("click", () => {
     header__myName.remove();
@@ -52,10 +53,11 @@ header__themeButton.addEventListener("click", () => {
     table__row2013.classList.toggle("table__row--dark");
     table__row2014.classList.toggle("table__row--dark");
     table__row2023.classList.toggle("table__row--dark");
-    table__row.classList.toggle("table__row--dark");
     linkUpAbout.classList.toggle("linkUP--dark");
     linkUpCourses.classList.toggle("linkUP--dark");
     linkUpFreeTime.classList.toggle("linkUP--dark");
     sectionFreeTime.classList.toggle("section--dark");
+    sectionFreeTimeParagraph.classList.toggle("section--dark");
+
 });
 
