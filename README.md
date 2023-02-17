@@ -8,4 +8,8 @@ A website created for the Front-end Developer course at YouCode, telling a littl
 
 ## Demo
 
+![demo](https://bartekkamela.github.io/homepage/images/demo.gif)
+## Link To App
+
 https://bartekkamela.github.io/homepage/
+
